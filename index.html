@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Engineering Student Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+
+  <!-- Navigation -->
+  <nav class="fixed w-full bg-gray-800 bg-opacity-90 z-50 shadow-lg">
+    <div class="container mx-auto px-6 py-3">
+      <div class="flex justify-between items-center">
+        <a href="#" class="text-xl font-bold text-blue-400">Portfolio</a>
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="hover:text-blue-400 transition">Home</a>
+          <a href="#about" class="hover:text-blue-400 transition">About</a>
+          <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+          <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+          <a href="#education" class="hover:text-blue-400 transition">Education</a>
+        </div>
+        <button id="mobile-menu-button" class="md:hidden text-gray-200 focus:outline-none">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="hidden md:hidden mt-4">
+        <a href="#home" class="block py-2 hover:text-blue-400 transition">Home</a>
+        <a href="#about" class="block py-2 hover:text-blue-400 transition">About</a>
+        <a href="#skills" class="block py-2 hover:text-blue-400 transition">Skills</a>
+        <a href="#projects" class="block py-2 hover:text-blue-400 transition">Projects</a>
+        <a href="#education" class="block py-2 hover:text-blue-400 transition">Education</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- All Other Sections Here -->
+  <!-- ✅ Copy the content of sections: #home, #about, #skills, #projects, #education, #contact -->
+  <!-- ✅ Keep them the same as in your original HTML and paste them here below -->
+  <!-- ✅ For brevity, I'm not repeating all the section HTML here -->
+  <!-- Paste your full sections below this comment -->
+
+  <!-- Example of back to top button -->
+ \    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-16">
+        <div class="container mx-auto px-6 text-center fade-in">
+            <div class="max-w-3xl mx-auto">
+                <img src="photo1.jpeg" alt="Profile" class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-blue-400">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Neeta Chavan</h1>
+                <h2 class="text-2xl md:text-3xl text-blue-400 mb-6">Computer Engineering Student</h2>
+                
+                <div class="flex justify-center space-x-4">
+                    <a href="#contact" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition">Contact Me</a>
+                    <a href="#projects" class="bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-lg transition">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12" >About <span class="text-blue-400">Me</span></h2>
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3 flex justify-center">
+                    <img src="photo2.jpeg" alt="About" class="rounded-lg shadow-xl w-full max-w-xs">
+                </div>
+                <div class="md:w-2/3">
+                    <p class="text-lg mb-6">
+                        I am a 20-year-old college student currently pursuing a B.Tech degree in Computer Science and Business System.
+                        <br>Passionate about technology and driven by curiosity, I am eager to expand my knowledge and develop strong technical skills that can contribute meaningfully to the field.
+                        <br>I am a hardworking and dedicated individual who values quality over shortcuts, and I strive to approach every project with a mindset of continuous improvement.
+                        <br>My goal is to not only learn but also to apply my knowledge in real-world scenarios, collaborate with others, and make a positive impact through innovation and problem-solving.
+                    <p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">My <span class="text-blue-400">Skills</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Technical Skills -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-6 flex items-center">
+                        <i class="fas fa-laptop-code text-blue-400 mr-2"></i>
+                        Technical Skills
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span>C/C++</span>
+                                
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span>Java</span>
+                                
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span>HTML/CSS</span>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span>JavaScript</span>
+                                
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span>Data Visualization</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Professional Skills -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-6 flex items-center">
+                        <i class="fas fa-user-tie text-blue-400 mr-2"></i>
+                        Professional Skills
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span>Teamwork</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span>Time Management</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span>Communication</span>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tools and Technologies -->
+            <div class="mt-12 bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold mb-6 flex items-center">
+                    <i class="fas fa-tools text-blue-400 mr-2"></i>
+                    Tools & Technologies
+                </h3>
+                <div class="flex flex-wrap gap-4 justify-center">
+                   
+                    
+                    <div class="flex flex-col items-center p-4 bg-gray-700 rounded-lg w-24">
+                        <i class="fas fa-database text-3xl text-blue-400 mb-2"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="flex flex-col items-center p-4 bg-gray-700 rounded-lg w-24">
+                        <i class="fab fa-database text-3xl text-blue-400 mb-2"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="flex flex-col items-center p-4 bg-gray-700 rounded-lg w-24">
+                        <i class="fas fa-microchip text-3xl text-blue-400 mb-2"></i>
+                        <span>Power BI</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">My <span class="text-blue-400">Projects</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <img src="project1.png" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">SideView</h3>
+                        <p class="text-gray-400 mb-4">Developed a modern portfolio website with a dark-themed UI, sidebar navigation, and fullscreen gallery display to showcase photography and creative work.</p>
+                        
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <img src="project2.png" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Spotify Page</h3>
+                        <p class="text-gray-400 mb-4">Built a music streaming web app UI inspired by Spotify, featuring a sidebar navigation, playlist management, trending section, and a responsive dark-themed design.<p>
+                        
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <img src="project3.png" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Todo App</h3>
+                        <p class="text-gray-400 mb-4">Built a simple and responsive To-Do App using HTML, CSS, and JavaScript. Designed a clean UI with centered layout and custom background. Implemented dynamic task addition and deletion features to improve interactivity.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">My <span class="text-blue-400">Education</span></h2>
+            <div class="max-w-4xl mx-auto">
+                <!-- Timeline -->
+                <div class="relative">
+                    <!-- Timeline line -->
+                    <div class="absolute left-1/2 w-1 h-full bg-blue-500 transform -translate-x-1/2"></div>
+                    
+                    <!-- Timeline item 1 -->
+                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-blue-500 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+                        </div>
+                        <div class="order-1 bg-gray-800 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                            <h3 class="text-xl font-bold text-blue-400">Secondary School Certificate(SSC)</h3>
+                            <h4 class="text-lg font-semibold mb-2">Abhishek Vidyalayam English Medium School</h4>
+                            <p class="text-gray-400">10 GRADE [SSC]</p>
+                            <p class="mt-2">Percentage : 71% | 2021</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline item 2 -->
+                    <div class="mb-8 flex justify-between items-center w-full left-timeline">
+                        <div class="order-1 bg-gray-800 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                           <h3 class="text-xl font-bold text-blue-400">Higher Secondary Certificate(HSC)</h3>
+                            <h4 class="text-lg font-semibold mb-2">Dr. DY Patil Jr.College</h4>
+                            <p class="text-gray-400">Stream = Science</p>
+                            <p class="text-gray-400">12 GRADE [SSC]</p>
+                            <p class="mt-2">Percentage : 66.67% | 2023</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Timeline item 3 -->
+                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-blue-500 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                        </div>
+                        <div class="order-1 bg-gray-800 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                            <h3 class="text-xl font-bold text-blue-400">B.TECH IN COMPUTER SCIENCE & BUSINESS SYSTEM</h3>
+                            <h4 class="text-lg font-semibold mb-2">JSPMs Rajarshi shahu College of Engineering</h4>
+                            <p class="text-gray-400">Currently in 3rd Year</p>
+                            <p class="text-sm text-gray-500"></p>
+                            <p class="mt-2">CGPA : 7.00</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Get In <span class="text-blue-400">Touch</span></h2>
+            <div class="flex flex-col md:flex-row gap-12">
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                    <p class="mb-6">Feel free to reach out to me for any questions or opportunities. I'll get back to you as soon as possible.</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-envelope text-blue-400 mt-1 mr-4"></i>
+                            <div>
+                                <h4 class="font-semibold">Email</h4>
+                                <p class="text-gray-400">chavanneeta29@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-phone text-blue-400 mt-1 mr-4"></i>
+                            <div>
+                                <h4 class="font-semibold">Phone</h4>
+                                <p class="text-gray-400">7822079590</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="md:w-1/2">
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block mb-2">Your Name</label>
+                                <input type="text" id="name" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block mb-2">Your Email</label>
+                                <input type="email" id="email" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subject" class="block mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block mb-2">Message</label>
+                            <textarea id="message" rows="5" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
