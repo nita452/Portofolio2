@@ -21,6 +21,9 @@
           <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
           <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
           <a href="#education" class="hover:text-blue-400 transition">Education</a>
+          <a href="#activities" class="hover:text-blue-400 transition">Extracurricular</a>
+          <a href="#resume" class="hover:text-blue-400 transition">Resume</a>
+
         </div>
         <button id="mobile-menu-button" class="md:hidden text-gray-200 focus:outline-none">
           <i class="fas fa-bars text-2xl"></i>
@@ -33,6 +36,9 @@
         <a href="#skills" class="block py-2 hover:text-blue-400 transition">Skills</a>
         <a href="#projects" class="block py-2 hover:text-blue-400 transition">Projects</a>
         <a href="#education" class="block py-2 hover:text-blue-400 transition">Education</a>
+        <a href="#activities" class="block py-2 hover:text-blue-400 transition">Extracurricular</a>
+        <a href="#resume" class="hover:text-blue-400 transition">Resume</a>
+
       </div>
     </div>
   </nav>
@@ -183,8 +189,21 @@
 
     <!-- Projects Section -->
     <section id="projects" class="py-20 bg-gray-800">
+        <h2 class="text-3xl font-bold text-center mb-4">
+           My <span class="text-blue-400">Projects</span>
+       </h2>
+
+       <!-- GitHub Link Button -->
+          <div class="text-center mb-12">
+            <a href="https://github.com/nita452" target="_blank"
+               class="inline-flex items-center bg-gray-900 hover:bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md transition">
+               <i class="fab fa-github text-2xl mr-2"></i>
+               View My GitHub Profile
+            </a>
+          </div>
+
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12">My <span class="text-blue-400">Projects</span></h2>
+            
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Project 1 -->
                 <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
@@ -192,7 +211,6 @@
                     <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2">SideView</h3>
                         <p class="text-gray-400 mb-4">Developed a modern portfolio website with a dark-themed UI, sidebar navigation, and fullscreen gallery display to showcase photography and creative work.</p>
-                        
                     </div>
                 </div>
                 
@@ -219,6 +237,34 @@
         </div>
     </section>
 
+    <!-- Resume Section -->
+       <section id="resume" class="py-20 bg-gray-800 text-white">
+            <div class="max-w-4xl mx-auto text-center">
+               <h2 class="text-3xl font-bold mb-6">
+                   My <span class="text-blue-400">Resume</span>
+              </h2>
+              <p class="text-gray-300 mb-8">
+                Here’s my latest resume showcasing my skills, education, and achievements.
+             </p>
+
+             <!-- Resume Preview (iframe) -->
+              <div class="flex justify-center mb-8">
+                 <iframe 
+                  src="resume.pdf"
+                  class="w-full max-w-3xl h-[600px] border-2 border-gray-700 rounded-lg shadow-lg"
+                  title="Resume Preview">
+                 </iframe>
+                </div>
+
+             <!-- Download Button -->
+               <a href="resume.pdf" download
+               class="inline-flex items-center bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md transition">
+               <i class="fas fa-download mr-2"></i> Download Resume
+              </a>
+         </div>
+      </section>
+
+
     <!-- Education Section -->
     <section id="education" class="py-20">
         <div class="container mx-auto px-6">
@@ -233,13 +279,15 @@
                     <div class="mb-8 flex justify-between items-center w-full right-timeline">
                         <div class="order-1 w-5/12"></div>
                         <div class="z-20 flex items-center order-1 bg-blue-500 shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+                            <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
                         </div>
                         <div class="order-1 bg-gray-800 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="text-xl font-bold text-blue-400">Secondary School Certificate(SSC)</h3>
-                            <h4 class="text-lg font-semibold mb-2">Abhishek Vidyalayam English Medium School</h4>
-                            <p class="text-gray-400">10 GRADE [SSC]</p>
-                            <p class="mt-2">Percentage : 71% | 2021</p>
+                            <h3 class="text-xl font-bold text-blue-400">B.TECH IN COMPUTER SCIENCE & BUSINESS SYSTEM</h3>
+                            <h4 class="text-lg font-semibold mb-2">JSPMs Rajarshi shahu College of Engineering</h4>
+                            <p class="text-gray-400">Currently in 3rd Year</p>
+                            <p class="text-sm text-gray-500"></p>
+                            <p class="mt-2">CGPA : 7.00</p>
+                            <p></p>
                         </div>
                     </div>
                     
@@ -259,21 +307,64 @@
                     <div class="mb-8 flex justify-between items-center w-full right-timeline">
                         <div class="order-1 w-5/12"></div>
                         <div class="z-20 flex items-center order-1 bg-blue-500 shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                            <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
                         </div>
                         <div class="order-1 bg-gray-800 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="text-xl font-bold text-blue-400">B.TECH IN COMPUTER SCIENCE & BUSINESS SYSTEM</h3>
-                            <h4 class="text-lg font-semibold mb-2">JSPMs Rajarshi shahu College of Engineering</h4>
-                            <p class="text-gray-400">Currently in 3rd Year</p>
-                            <p class="text-sm text-gray-500"></p>
-                            <p class="mt-2">CGPA : 7.00</p>
-                            <p></p>
+                            <h3 class="text-xl font-bold text-blue-400">Secondary School Certificate(SSC)</h3>
+                            <h4 class="text-lg font-semibold mb-2">Abhishek Vidyalayam English Medium School</h4>
+                            <p class="text-gray-400">10 GRADE [SSC]</p>
+                            <p class="mt-2">Percentage : 71% | 2021</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+        <!-- Extracurricular Activities Section -->
+    <section id="activities" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Extracurricular <span class="text-blue-400">Activities</span></h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- PDC -->
+                <div class="bg-gray-900 rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-2">Co-Lead (Public Relations)</h3>
+                    <h4 class="text-lg font-medium mb-2">Professional Development Club (PDC), RSCOE</h4>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Managing external communications and promoting club initiatives.</li>
+                        <li>Coordinating public outreach and event publicity.</li>
+                        <li>Encouraging student participation and networking opportunities.</li>
+                    </ul>
+                </div>
+
+                <!-- TPC -->
+                <div class="bg-gray-900 rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-2">Training and Placement Coordinator (TPC)</h3>
+                    <h4 class="text-lg font-medium mb-2">Department of Computer Engineering</h4>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Serving as a link between students and the Training & Placement Cell.</li>
+                        <li>Assisting in organizing placement drives and professional workshops.</li>
+                        <li>Supporting students with pre-placement preparation and communication.</li>
+                    </ul>
+                </div>
+
+                <!-- ACBS -->
+                <div class="bg-gray-900 rounded-lg shadow-lg p-6 transition-transform hover:scale-105 md:col-span-2">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-2">Member</h3>
+                    <h4 class="text-lg font-medium mb-2">ACM Chapter of Business Studies (ACBS), RSCOE</h4>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Contributing to technical and management-focused club activities.</li>
+                        <li>Collaborating with peers to organize events and seminars.</li>
+                        <li>Enhancing interdisciplinary skills and exposure to business systems.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-gray-800">
